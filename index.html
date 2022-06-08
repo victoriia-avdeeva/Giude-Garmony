@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accept Yourself</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@300;400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="container mobile-bar">
+                <a href="https://www.instagram.com/victoriia.avdeeva/" class="logo">
+    
+                    <!-- <img src="./img/logoweb.png" alt=""> --><span>Viktoriia Avdeeva</span>
+                </a>
+                <button type="button" class="mobile-header__button is-open" data-menu-button data-backdrop-open>
+                    <svg width="40" height="40" aria-label="мобильное меню">
+                        <use class="mobile-header__icon-menu" href="./img/icons.svg#icon-menu_40px"></use>
+                    </svg>
+                </button>
+                <div class="backdrop is-hidden" data-backdrop>
+                    <div class="mobile-menu" data-menu the-menu>
+                        <button type="button" class="mobile-menu__button is-open" data-menu-button data-menu-close
+                            data-backdrop-close>
+                            <svg width="40" height="40" aria-label="мобильное меню">
+                                <use class="mobile-header__icon-cross" href="./img/icons.svg#icon-close_40px"></use>
+                            </svg>
+                        </button>
+                        <ul class="site-nav">
+                            <li class="site-nav__item"><a class="site-nav__link arrow-3" href="#about"> <span class="pre_arrow">Для тебя</span> 
+                                <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#ac3630" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                                        <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg>
+                            </a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#emotions">Эмоции</a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#help">Помощь</a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#buy">Как купить</a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#author">Автор</a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#rewiew">Отзывы</a></li>
+                            <li class="site-nav__item"><a class="site-nav__link" href="#contacts">Контакты</a></li>
+                        </ul>
+                        <!-- <div class="contacts-head">
+                <button class="contacts-head_button"><a href="https://www.instagram.com/victoriia.avdeeva/" class="contacts-head_link">Напиши мне
+                    <svg class="contacts__icon" width="18" height="18">
+                        <use href="./img/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+                </button>
+                </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="container desktop">
+                <a href="#author" class="logo"><span>Viktoriia Avdeeva</span></a>
+                <nav class="site-nav">
+                    <li class="site-nav_item"><a class="site-nav_link" href="#author">Об авторе</a></li>
+                    <li class="site-nav_item"><a class="site-nav_link" href="#rewiew">Отзывы</a></li>
+                    <li class="site-nav_item link__hide"><a class="site-nav_link" href="#docs">Правовая информация</a></li>
+                    <li class="site-nav_item"><a class="site-nav_link" href="#contacts">Контакты</a></li>
+                </nav>
+                <div class="contacts-head">
+                    <button class="contacts-head_button"><a href="https://www.instagram.com/victoriia.avdeeva/"
+                            class="contacts-head_link">Напиши мне
+                            <svg class="contacts__icon" width="18" height="18">
+                                <use href="./img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="hero">
+                    <img src="./img/girl1.png" alt="" class="hero_img">
+                    <div class="hero-box">
+                        <h1 class="hero_title__mob">Гармония <br> чувств и эмоций</h1>
+                        <h1 class="hero_title">Гармония <br> чувств и эмоций</h1>
+                        <button type="button" class="hero_button"><a href="https://t.me/ViktoriiaAvdeeva"
+                                class="hero__link">
+                                Купить гайд</a></button>
+                    </div>
+                </section>
+                <section>
+                    <p>Гайд<span>"Гармония чувств и эмоций"</span> - этой твой путеводитель к себе. Понимая и принимая свои чувства, мы становимся творцом
+                    своей жизни.</p>
+                </section>
+                <section class="about" id="about">
+                    <img src="./img/free-png.ru-362.png" alt="" class="about__img">
+                    <h2 class="about__title section-title">Этот гайд для тебя, если:</h2>
+                    <ul class="about__list">
+                        <li class="about__text about__text-dec2">Ты не можешь разобраться в своих эмоциях;</li>
+                        <li class="about__text about__text-dec">Не понимаешь, что чувствуешь;</li>
+                        <li class="about__text about__text-dec2">Тебе кажется, что чувствуешь слишком много;</li>
+                        <li class="about__text about__text-dec2">Не чувствуешь ничего совсем;</li>
+                        <li class="about__text about__text-dec">Бываешь слишком вспыльчивым или уязвимым;</li>
+                        <li>Эмоции часто мешают собраться с мыслями;</li>
+                        <li>Ты часто чувствуешь себя подавленным и разбитым;</li>
+                        <li>Не знаешь чего хочешь и как этого достичь.</li>
+                        </ul>
+                </section>
+                <section class="emotions" id="emotions">
+                    <h2 class="emotions__title section-title">Почему эмоции - это важно?</h2>
+                    <h3>Даже, если мы игнорируем то, что мы чувствуем, наши эмоции всё равно влияют на все сферы нашей жизни:</h3>
+                    <ul class="emotions__list">
+                        <li class="emotions__item">На отношения в семье,</li>
+                        <li class="emotions__item">На наше здоровье,</li>
+                        <li class="emotions__item">На взаимоотношения со внешним миром,</li>
+                        <li class="emotions__item">На наш личностный рост,</li>
+                        <li class="emotions__item">На отношения с партнёром,</li>
+                        <li class="emotions__item">На уровень жизни и достаток,</li>
+                        <li class="emotions__item">На восприятие нами мира,</li>
+                        <li class="emotions__item">И на то на сколько мы ощущаем себя счастливым человека.</li>
+                    </ul>
+                </section>
+                <section class="help" id="help">
+                    <h2>Гайд поможет:</h2>
+                    <ul>
+                        <li>Понять свое эмоциональное состояние;</li>
+                        <li>Почувствовать себя в гармонии с собой и внешним миром</li>
+                        <li>Разобраться в текущих делах</li>
+                        <li>Почувствовать себя счастливым</li>
+                        <li>Справиться со своими мыслями</li>
+                        <li>Установить контакт с собой</li>
+                        <li>Научиться себя лучше слушать и понимать свои потребности</li>
+                        <li>Понимать, что ты чувствуешь и контролировать свои эмоции</li>
+                    </ul>
+                </section>
+                <section class="buy" id="buy">
+                    <h2 class="section-title buy__title">Как купить:</h2>
+                    <div>
+                        <ul class="buy_list">
+                            <li class="buy__item buy__item--after">
+                                <h3 class="buy__name buy--mar">Минимальный</h3>
+                                <p class="buy__inf buy--mar2">без проверки домашнего задания</p>
+                                <p class="buy__number"><span class="buy__number--big">20</span><span
+                                        class="buy__number--small">долларов</span></p>
+                                <div class="buy__div">
+                                    <button type="button" class="buy__button" data-modal-open1>Купить
+                                        <!-- <a href="#buy" class="buy__link">Купить</a> -->
+                                    </button>
+                                </div>
+    
+                            </li>
+                            <li class="buy__item buy__item--after">
+                                <h3 class="buy__name buy--mar">Оптимальный</h3>
+                                <p class="buy__inf buy--mar2">с проверкой домашнего задания</p>
+                                <p class="buy__number"><span class="buy__number--big">30</span><span
+                                        class="buy__number--small">долларов</span></p>
+                                <div class="buy__div"><button type="button" class="buy__button" data-modal-open2>Купить
+                                        <!-- <a href="#buy" class="buy__link">Купить</a> -->
+                                    </button></div>
+    
+                            </li>
+                            <li class="buy__item">
+                                <h3 class="buy__name">Комфортный</h3>
+                                <p class="buy__inf1">с проверкой домашнего задания</p>
+                                <p class="buy__inf">личная консультация от автора</p>
+                                <p class="buy__number"><span class="buy__number--big">40</span><span
+                                        class="buy__number--small">долларов</span></p>
+                                <div class="buy__div"><button type="button" class="buy__button" data-modal-open3>Купить
+                                        <!-- <a href="#buy" class="buy__link">Купить</a> -->
+                                    </button></div>
+    
+                            </li>
+                        </ul>
+    
+                        <!-- <ul class="buy__social">
+                
+                <h3 class="buy__order">Заказать</h3>
+                <div class="buy__div">
+                    <li class="buy__icon">
+                    <svg class="" width="40" height="40">
+                        <use href="./img/icons.svg#icon-whatsapp"></use>
+                    </svg>
+                </li>
+                <li class="buy__icon">
+                    <svg class="" width="40" height="40">
+                        <use href="./img/icons.svg#icon-telegram"></use>
+                    </svg>
+                </li>
+                <li class="buy__icon">
+                    <svg class="" width="40" height="40">
+                        <use href="./img/icons.svg#icon-instagram2"></use>
+                    </svg>
+                </li></div>
+                
+            </ul></div> -->
+    
+                </section>
+            </div>
+            <section class="author" id="author">
+                <div class="container">
+                    <h2 class="section-title author__title">Автор</h2>
+                    <div class="author__div">
+                        <img class="author__img" src="./img/test2.jpg" alt="" width="320">
+                        <ul class="author__list">
+                            <li class="author__text">
+                                <p class="author__name">Меня зовут Виктория,<br>я - магистр психологических наук</p>
+                            </li>
+                            <li class="author__text">
+                                Я создала этот марафон, т.к. на протяжении <span class="author__imp"> семи лет </span>своей
+                                практики постоянно видела как важна самооценка и
+                                любовь к себе. <span class="author__imp">Сотни девушек </span>приходили ко мне с вопросом,
+                                что не могут положиться на себя, что жизненный курс
+                                ведёт их в неверном направлении, мир несправедлив и везёт только окружающим, но не им.
+                                Именно<span class="author__imp"> по этой причине</span>,
+                                мне было важно показать, что первопричину нужно искать внутри себя, только<span
+                                    class="author__imp"> ты сам - автор своей жизни</span>. </li>
+                            <li class="author__text">Сейчас я научилась <span class="author__imp">принимать себя безусловно
+                                    и любить свою жизнь искренне</span>. И это отобразилось на всех сферах
+                                моей жизни.
+                                Я получаю удовольствие от материнства и <span class="author__imp">счастлива быть мамой троих
+                                    детей</span>. Я счастлива, как женщина и жена. Я знаю чего хочу и как к
+                                этому прийти. <span class="author__imp">Я люблю свою работу</span> и то, что я делаю меня
+                                вдохновляет.
+                                Но так было не всегда. Я сама столкнулась с проблемами самооценки и <span
+                                    class="author__imp">длительное время</span> не могла признать, что недостаточно
+                                искренне люблю себя.</li>
+                            <li class="author__text"><span class="author__imp">Я прошла этот путь с начала</span> и поэтому
+                                на собственном опыте знаю как <span class="author__imp">важно полюбить себя</span>,
+                                безусловно и от всего сердца,
+                                и как этот путь может быть сложен. </li>
+                            <li class="author__text">Мой предыдущий курс<span class="author__imp"> "Принять себя за 14 дней"
+                                </span>помог многим девушкам найти себя, отыскать
+                                гармонию внутри и научиться понимать и принимать себя, <span class="author__imp">такими,
+                                    какие они есть</span>. Чтобы не быть голословной,
+                                <span class="author__imp">многочисленные отзывы</span> ниже скажут о результатах участниц
+                                гораздо лучше.
+                            </li>
+                            <li class="author__text"><span class="author__imp">У меня нет "волшебной таблетки".</span> Более
+                                того, работать придется много, выполняя практики,
+                                которые будут в этом марафоне. Скажу честно: придется действительно потрудиться, <span
+                                    class="author__imp">но я буду рядом</span> на каждом этапе
+                                и мы с этим справимся вместе.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <section class="rewiew section" id="rewiew">
+                    <h2 class="section-title rewiew__title">Отзывы участников</h2>
+    
+                    <ul class="rewiew_list slider" slider>
+                        <li class="rewiew_item item">
+                            <img src="./img/0.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/1.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/2.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/3.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/4.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/5.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/6.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/7.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/8.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/9.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/10.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/11.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/12.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/13.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/14.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/15.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/16.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/17.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/18.jpg" alt="" class="rewiew_image" width="350px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/19.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/20.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <li class="rewiew_item item">
+                            <img src="./img/21.jpg" alt="" class="rewiew_image" width="300px">
+                        </li>
+                        <a class="prev" onclick="minusSlide()">&#10094;</a>
+                        <a class="next" onclick="plusSlide()">&#10095;</a>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer id="contacts">
+            <address class="footer">
+                <div class="contacts_div">
+                    <img src="./img/vanew.png" alt="" width="150" class="logo__img">
+                    <img src="./img/vanewwh.png" alt="" width="150" class="logo__img2">
+                    <ul class="contacts__main">
+                        <li class="link__items"><a href="tel:+380631731463" class="contacts__tel">+38 063 173 14 63</a></li>
+                        <li class="link__items"><a href="mailto:victoria.avdeeva201@gmail.com"
+                                class="contacts__mail">victoria.avdeeva201@gmail.com</a></li>
+    
+                    </ul>
+                </div>
+                <ul class="contacts__icons">
+                    <li class="contacts__item"><a class="footer__item"
+                            href="https://api.whatsapp.com/send?phone=380631731463">
+                            <svg class="modal__icons foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-whatsapp"></use>
+                            </svg>
+                        </a></li>
+                    <li class="contacts__item"><a class="footer__item" href="https://t.me/ViktoriiaAvdeeva">
+                            <svg class="modal__icons foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-telegram"></use>
+                            </svg></a></li>
+                    <li class="contacts__item"><a class="footer__item" href="https://www.instagram.com/victoriia.avdeeva/">
+                            <svg class="modal__icons foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-instagram2"></use>
+                            </svg></a></li>
+                </ul>
+                <ul class="contacts__icons--desctop">
+                    <li class="contacts__item"><a class="footer__item"
+                            href="https://api.whatsapp.com/send?phone=380631731463">
+                            <svg class="foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-whatsapp2"></use>
+                            </svg>
+                        </a></li>
+                    <li class="contacts__item"><a class="footer__item" href="https://t.me/ViktoriiaAvdeeva">
+                            <svg class="foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-telegram2"></use>
+                            </svg></a></li>
+                    <li class="contacts__item"><a class="footer__item" href="https://www.instagram.com/victoriia.avdeeva/">
+                            <svg class="foot__icons" width="40" height="40">
+                                <use href="./img/icons.svg#icon-instagram3"></use>
+                            </svg></a></li>
+                </ul>
+            </address>
+        </footer>
+        <div class="backdrop backdrop__modal is-hidden" data-modal-1>
+            <div class="modal">
+                <h3 class="modal-title">Связаться с автором<br> для оплаты</h3>
+                <div class="modal__div">
+                    <a class="social__item" href="https://api.whatsapp.com/send?phone=380631731463"><svg
+                            class="modal__icons" width="40" height="40">
+                            <use href="./img/icons.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="https://t.me/ViktoriiaPfeifer"><svg class="modal__icons" width="40"
+                            height="40">
+                            <use href="./img/icons.svg#icon-telegram"></use>
+                        </svg></a>
+                    <a class="social__item" href="https://www.instagram.com/viktoriia_pfeifer/"><svg class="modal__icons"
+                            width="40" height="40">
+                            <use href="./img/icons.svg#icon-instagram2"></use>
+                        </svg></a>
+    
+                </div>
+                <button class="modal-form__button-close" data-modal-close1>
+                    <svg class="modal-form__icon-close">
+                        <use href="./img/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="backdrop backdrop__modal is-hidden" data-modal-2>
+            <div class="modal">
+                <h3 class="modal-title">Связаться с автором для оплаты</h3>
+                <div class="modal__div">
+                    <a class="social__item" href="https://api.whatsapp.com/send?phone=380631731463"><svg
+                            class="modal__icons" width="40" height="40">
+                            <use href="./img/icons.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="https://t.me/ViktoriiaPfeifer"><svg class="modal__icons" width="40"
+                            height="40">
+                            <use href="./img/icons.svg#icon-telegram"></use>
+                        </svg></a>
+                    <a class="social__item" href="https://www.instagram.com/viktoriia_pfeifer/"><svg class="modal__icons"
+                            width="40" height="40">
+                            <use href="./img/icons.svg#icon-instagram2"></use>
+                        </svg></a>
+    
+                </div>
+                <button class="modal-form__button-close" data-modal-close2>
+                    <svg class="modal-form__icon-close">
+                        <use href="./img/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+    
+        </div>
+        <div class="backdrop backdrop__modal is-hidden" data-modal-3>
+            <div class="modal">
+                <h3 class="modal-title">Связаться с автором для оплаты</h3>
+                <div class="modal__div">
+                    <a class="social__item" href="https://api.whatsapp.com/send?phone=380631731463"><svg
+                            class="modal__icons" width="40" height="40">
+                            <use href="./img/icons.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="https://t.me/ViktoriiaPfeifer"><svg class="modal__icons" width="40"
+                            height="40">
+                            <use href="./img/icons.svg#icon-telegram"></use>
+                        </svg></a>
+                    <a class="social__item" href="https://www.instagram.com/viktoriia_pfeifer/"><svg class="modal__icons"
+                            width="40" height="40">
+                            <use href="./img/icons.svg#icon-instagram2"></use>
+                        </svg></a>
+    
+                </div>
+                <button class="modal-form__button-close" data-modal-close3>
+                    <svg class="modal-form__icon-close">
+                        <use href="./img/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+    
+        </div>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/close.js"></script>
+    <script src="./js/backdrop.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/modal2.js"></script>
+    <script src="./js/modal3.js"></script>
+    <!-- <script src="./js/slider.js"></script> -->
+    <script src="./js/slider-work.js"></script>
+    
+    
+    
+    </body>
+    
+    </html>
