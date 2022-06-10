@@ -26,7 +26,7 @@
 
     &:hover,
     &:focus {
-      fill: #682483;
+      fill: #ac3630;
     }
   }
   .mobile-header__button .mobile-menu__icon-cross {
@@ -48,8 +48,7 @@
     left: 0;
     z-index: 2;
     margin-left: auto;
-    background-color: #e7c5b3;
-    background-image: url(../img/sand.jpg);
+    background-color: #ffeee5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -76,89 +75,96 @@
   }
   .site-nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0 80px;
   }
   .site-nav__item {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: right;
     flex-direction: column;
     margin-bottom: 32px;
   }
   .site-nav__link {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Yanone Kaffeesatz;
     font-weight: 700;
-    font-size: 17.5px;
+    font-size: 20px;
     line-height: 1.66;
     letter-spacing: 0.02em;
+    color: #ac3630;
     
-    // &:hover,
-    // &:focus {
-    //   color: white;
-    //   background-color: #ac3630;
-    //   border-radius: 0 20px 20px 0;
-    //   padding: 5px 10px;
-    //   border: none;
-    //   text-align: left;
-    // }
-    .pre_arrow {
+    &:hover,
+    &:focus {
       color: black;
-      margin-right: 20px;
+      border-radius: 0 20px;
+      padding: 5px 10px;
+      font-size: 25px;
+      border: none;
+      text-align: left;
     }
-      .arrow-3 {
-        color: #ac3630;
-        font-size: 17.5px;
-        line-height: 1.66;
-        height: 18px;
-        margin: 20px;
-        display: inline-block;
+  
+  .arrow {
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    margin-left: 20px;
+    transform: rotate(45deg);
+    opacity: 0.2;
+    
+    &:hover,
+      &:focus {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        border-top: 5px solid #ac3630;
+        border-right: 5px solid #ac3630;
+        opacity: 1;
       }
-
-      .arrow-3 .arrow-3-icon {
-        position: relative;
-        top: -5px;
-        transition: transform 0.3s ease;
-        vertical-align: middle;
-      }
-
-      .arrow-3 .arrow-3-iconcircle {
-        transition: stroke-dashoffset .3s ease;
-        stroke-dasharray: 95;
-        stroke-dashoffset: 95;
-      }
-
-      .arrow-3:hover .arrow-3-icon {
-        transform: translate3d(5px, 0, 0) ;
-      }
-
-      .arrow-3:hover .arrow-3-iconcircle {
-        stroke-dashoffset: 0;
+      
       }
   }
-
+  }
    
-}
+
 @media screen and (min-width: 768px) {
   .desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0 10px 0;
+    position: relative;
+    
+      &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #ac3630;
+        border-radius: 1px;
+      }
   }
   .site-nav {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-left: auto;
+    
   }
   .site-nav_item {
     display: flex;
-    font-weight: 500;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
     padding: 42px 0 38px 0;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.17;  
 
     &:not(:last-child) {
       margin-right: 15px;
@@ -168,13 +174,15 @@
     display: none;
   }
   .site-nav_link {
-    color: black;
+    color: #ac3630;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
+ 
     &:hover,
     &:focus {
-      color: white;
+      font-size: 25px;
+      color: black;
     }
-  }
+}
   .contacts-head {
     display: flex;
     justify-content: flex-end;
@@ -183,29 +191,33 @@
   }
   .contacts-head_button {
     display: inline-flex;
+    font-family: Yanone Kaffeesatz;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.17;
     letter-spacing: 0.06em;
-    border-radius: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-    border: 4px solid #682483;
-    background-color: transparent;
+    border-radius: 10px;
+    
+    background-color: #ac3630;
+    // background-color: transparent;
+    border-color: transparent;
 
     &:hover,
     &:focus {
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+      border: 2px solid #ac3630;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+      background-color: transparent;
     }
     .contacts-head_link {
       display: flex;
       align-items: center;
       flex-direction: row-reverse;
       padding: 10px 30px;
-      color: #682483;
+      color: white;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
       &:hover,
       &:focus {
-        color: white;
+        color: black;
       }
     }
     .contacts__icon {
@@ -230,7 +242,7 @@
   .site-nav_item {
     display: flex;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 700;
     padding: 38px 0;
     font-size: 18px;
     line-height: 1.17;
@@ -240,11 +252,11 @@
     }
   }
   .site-nav_link {
-    color: black;
+    color: #ac3630;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     &:hover,
     &:focus {
-      color: white;
+      color: black;
     }
   }
   .contacts-head {
@@ -259,25 +271,25 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    border-radius: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-    border: 4px solid #682483;
-    background-color: transparent;
+    border-radius: 10px;
+    background-color: #ac3630;
+    border-color: transparent;
+    
 
     &:hover,
     &:focus {
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
     }
     .contacts-head_link {
       display: flex;
       align-items: center;
       flex-direction: row-reverse;
       padding: 10px 30px;
-      color: #682483;
+      color: white;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
       &:hover,
       &:focus {
-        color: white;
+        color: black;
       }
     }
     .contacts__icon {
