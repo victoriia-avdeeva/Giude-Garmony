@@ -4,6 +4,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #ac3630;
+        border-radius: 1px;
+      }
   }
   @media screen and (min-width: 768px) {
     display: none;
