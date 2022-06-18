@@ -31,22 +31,23 @@
     // top: 0;
     top: 50%;
     width: auto;
-    margin: -22px -20px;
-    padding: 16px;
-    color: white;
+    margin: -22px -30px;
+    padding: 10px;
+    color: #707070;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
   }
-  .slider .next {
+  .slider .next { 
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px;
   }
   /* При наведении на кнопки добавляем фон кнопок */
-  .slider .prev:hover,
-  .slider .next:hover {
-    background-color: rgba(86, 0, 94, 0.6);
+  .slider .prev:hover, &:focus,
+  .slider .next:hover, &:focus {
+    background-color: #ac3630;
+    color: white;
   }
   .slider-dots {
     text-align: center;
@@ -57,13 +58,13 @@
     width: 12px;
     margin: 0 2px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 4px;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   .active,
-  .slider-dots_item:hover {
-    background-color: rgba(86, 0, 94, 0.6);
+  .slider-dots_item:hover, &:focus {
+    background-color: #ac3630;
   }
   /* Анимация слайдов */
   .slider .item {
@@ -99,7 +100,6 @@
   .rewiew__title {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
   }
   .rewiew_image {
     margin: 0 auto;
@@ -116,48 +116,55 @@
     border: none;
     box-shadow: none;
   }
-  .slider .prev,
-  .slider .next {
-    position: absolute;
-    // top: 0;
-    top: 50%;
-    width: auto;
-    margin: -22px -20px;
-    padding: 16px;
-    color: rgba(86, 0, 94, 0.6);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 100%;
-  }
-  .slider .next {
-    right: 0;
-    border-radius: 100%;
-  }
-  /* При наведении на кнопки добавляем фон кнопок */
-  .slider .prev:hover,
-  .slider .next:hover {
-    color: white;
-    background-color: rgba(86, 0, 94, 0.6);
-  }
-  .slider-dots {
-    text-align: center;
-    margin: 0 auto;
-  }
-  .slider-dots_item {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 2px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .active,
-  .slider-dots_item:hover {
-    background-color: rgba(86, 0, 94, 0.6);
-  }
+    .slider .prev,
+    .slider .next {
+      position: absolute;
+      // top: 0;
+      top: 50%;
+      width: auto;
+      margin: -22px 50px;
+      padding: 10px;
+      color: #707070;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 4px 4px 0;
+    }
+  
+    .slider .next {
+      right: 0;
+      border-radius: 4px;
+    }
+  
+    /* При наведении на кнопки добавляем фон кнопок */
+    .slider .prev:hover,
+    &:focus,
+    .slider .next:hover,
+    &:focus {
+      background-color: #ac3630;
+      color: white;
+    }
+  
+    .slider-dots {
+      text-align: center;
+    }
+  
+    .slider-dots_item {
+      cursor: pointer;
+      height: 12px;
+      width: 12px;
+      margin: 0 2px;
+      background-color: white;
+      border-radius: 4px;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+  
+    .active,
+    .slider-dots_item:hover,
+    &:focus {
+      background-color: #ac3630;
+    }
   /* Анимация слайдов */
   .slider .item {
     -webkit-animation-name: fade;
@@ -192,7 +199,7 @@
   .rewiew__title {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+  
   }
   .rewiew_image {
     margin: 0 auto;
@@ -209,48 +216,55 @@
     border: none;
     box-shadow: none;
   }
-  .slider .prev,
-  .slider .next {
-    position: absolute;
-    // top: 0;
-    top: 50%;
-    width: auto;
-    margin: -22px 200px;
-    padding: 20px;
-    color: rgba(86, 0, 94, 0.6);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 100%;
-  }
-  .slider .next {
-    right: 0;
-    border-radius: 100%;
-  }
-  /* При наведении на кнопки добавляем фон кнопок */
-  .slider .prev:hover,
-  .slider .next:hover {
-    color: white;
-    background-color: rgba(86, 0, 94, 0.6);
-  }
-  .slider-dots {
-    text-align: center;
-    margin: 0 auto;
-  }
-  .slider-dots_item {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 2px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .active,
-  .slider-dots_item:hover {
-    background-color: rgba(86, 0, 94, 0.6);
-  }
+    .slider .prev,
+    .slider .next {
+      position: absolute;
+      // top: 0;
+      top: 50%;
+      width: auto;
+      margin: -22px 190px;
+      padding: 10px;
+      color: #707070;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 4px 4px 0;
+    }
+  
+    .slider .next {
+      right: 0;
+      border-radius: 4px;
+    }
+  
+    /* При наведении на кнопки добавляем фон кнопок */
+    .slider .prev:hover,
+    &:focus,
+    .slider .next:hover,
+    &:focus {
+      background-color: #ac3630;
+      color: white;
+    }
+  
+    .slider-dots {
+      text-align: center;
+    }
+  
+    .slider-dots_item {
+      cursor: pointer;
+      height: 12px;
+      width: 12px;
+      margin: 0 2px;
+      background-color: white;
+      border-radius: 4px;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+  
+    .active,
+    .slider-dots_item:hover,
+    &:focus {
+      background-color: #ac3630;
+    }
   /* Анимация слайдов */
   .slider .item {
     -webkit-animation-name: fade;
