@@ -857,16 +857,17 @@ a {
     font-family: Alegreya Sans SC;
     font-weight: 800;
     margin-top: 30px;
+    margin-right: 10px;
     color: #ac3630;
   }
   .hero_title {
     display: none;
   }
   .title__big {
-    font-size: 40px;
+    font-size: 35px;
   }
   .title__small {
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   .hero__img {
@@ -895,6 +896,7 @@ a {
     font-size: 15px;
     color: #0b0228;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 }
 
