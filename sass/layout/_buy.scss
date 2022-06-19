@@ -40,11 +40,11 @@
       &:focus {
         width: 100px;
         height: 100px;
-        background-color: #c84837;
+        background-color: $main-color;
         color: white;
         font-size: 18px;
         box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-        border-color: #c84837;
+        border-color: $main-color;
       }
     }
   
@@ -107,11 +107,11 @@
     &:focus {
       width: 120px;
       height: 120px;
-      background-color: #c84837;
+      background-color: $main-color;
       color: white;
       font-size: 18px;
       box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-      border-color: #c84837;
+      border-color: $main-color;
     }
  }
  .buy__icons {
@@ -175,11 +175,11 @@
       
         width: 140px;
         height: 140px;
-        background-color: #c84837;
+        background-color: $main-color;
         color: white;
         font-size: 22px;
         box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-        border-color: #c84837;
+        border-color: $main-color;
       }
     }
   
@@ -250,11 +250,11 @@
     
             width: 180px;
             height: 180px;
-            background-color: #c84837;
+            background-color: $main-color;
             color: white;
             font-size: 26px;
             box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-            border-color: #c84837;
+            border-color: $main-color;
           }
         }
     .buy__icons {

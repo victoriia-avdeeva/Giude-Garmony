@@ -46,7 +46,7 @@
   /* При наведении на кнопки добавляем фон кнопок */
   .slider .prev:hover, &:focus,
   .slider .next:hover, &:focus {
-    background-color: #ac3630;
+    background-color: $main-color;
     color: white;
   }
   .slider-dots {
@@ -64,7 +64,7 @@
   }
   .active,
   .slider-dots_item:hover, &:focus {
-    background-color: #ac3630;
+    background-color: $main-color;
   }
   /* Анимация слайдов */
   .slider .item {
@@ -141,7 +141,7 @@
     &:focus,
     .slider .next:hover,
     &:focus {
-      background-color: #ac3630;
+      background-color: $main-color;
       color: white;
     }
   
@@ -163,7 +163,7 @@
     .active,
     .slider-dots_item:hover,
     &:focus {
-      background-color: #ac3630;
+      background-color: $main-color;
     }
   /* Анимация слайдов */
   .slider .item {
@@ -241,7 +241,7 @@
     &:focus,
     .slider .next:hover,
     &:focus {
-      background-color: #ac3630;
+      background-color: $main-color;
       color: white;
     }
   
@@ -263,7 +263,7 @@
     .active,
     .slider-dots_item:hover,
     &:focus {
-      background-color: #ac3630;
+      background-color: $main-color;
     }
   /* Анимация слайдов */
   .slider .item {

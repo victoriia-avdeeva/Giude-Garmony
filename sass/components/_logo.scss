@@ -13,7 +13,7 @@
 
     &:hover,
     &:focus {
-      color: #ac3630;;
+      color: $main-color;
     }
   }
 }
@@ -26,7 +26,7 @@
     font-weight: 500;
     font-size: 25px;
     line-height: 1.16;
-    color: #ac3630;
+    color: $main-color;
     margin-left: 15px;
     padding-top: 24px;
     padding-bottom: 24px;

@@ -165,7 +165,7 @@ a {
 }
 
 .hero__link {
-  color: #ac3630;
+  color: #93c572;
 }
 
 @media screen and (min-width: 768px) {
@@ -204,7 +204,7 @@ a {
 }
 
 .hero__link {
-  color: #ac3630;
+  color: #93c572;
 }
 
 @media screen and (max-width: 767px) {
@@ -226,7 +226,7 @@ a {
     width: 40%;
   }
   .logo:hover, .logo:focus {
-    color: #ac3630;
+    color: #93c572;
   }
 }
 
@@ -244,7 +244,7 @@ a {
     font-weight: 500;
     font-size: 25px;
     line-height: 1.16;
-    color: #ac3630;
+    color: #93c572;
     margin-left: 15px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -429,7 +429,7 @@ a {
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-radius: 1px;
   }
 }
@@ -462,7 +462,7 @@ a {
     background-color: transparent;
   }
   .mobile-header__button:hover, .mobile-header__button:focus {
-    fill: #ac3630;
+    fill: #93c572;
   }
   .mobile-header__button .mobile-menu__icon-cross {
     display: none;
@@ -518,7 +518,7 @@ a {
     background-color: transparent;
   }
   .mobile-menu__button:hover, .mobile-menu__button:focus {
-    fill: #ac3630;
+    fill: #93c572;
   }
   .site-nav {
     display: -webkit-box;
@@ -564,7 +564,7 @@ a {
     font-size: 20px;
     line-height: 1.66;
     letter-spacing: 0.02em;
-    color: #ac3630;
+    color: #93c572;
   }
   .site-nav__link:hover, .site-nav__link:focus {
     color: black;
@@ -588,8 +588,8 @@ a {
     width: 20px;
     height: 20px;
     margin-left: 20px;
-    border-top: 5px solid #ac3630;
-    border-right: 5px solid #ac3630;
+    border-top: 5px solid #93c572;
+    border-right: 5px solid #93c572;
     opacity: 1;
   }
 }
@@ -616,7 +616,7 @@ a {
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-radius: 1px;
   }
   .site-nav {
@@ -647,7 +647,7 @@ a {
     display: none;
   }
   .site-nav_link {
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -677,11 +677,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.06em;
     border-radius: 10px;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-color: transparent;
   }
   .contacts-head_button:hover, .contacts-head_button:focus {
-    border: 2px solid #ac3630;
+    border: 2px solid #93c572;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
     background-color: transparent;
@@ -748,7 +748,7 @@ a {
     margin-right: 30px;
   }
   .site-nav_link {
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -776,7 +776,7 @@ a {
     line-height: 1.87;
     letter-spacing: 0.06em;
     border-radius: 10px;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-color: transparent;
   }
   .contacts-head_button:hover, .contacts-head_button:focus {
@@ -858,7 +858,7 @@ a {
     font-weight: 800;
     margin-top: 30px;
     margin-right: 10px;
-    color: #ac3630;
+    color: #93c572;
   }
   .hero_title {
     display: none;
@@ -947,7 +947,7 @@ a {
     font-family: Alegreya Sans SC;
     font-weight: 800;
     margin-top: 50px;
-    color: #ac3630;
+    color: #93c572;
   }
   .hero_title {
     display: none;
@@ -1001,7 +1001,7 @@ a {
     font-family: Alegreya Sans SC;
     font-weight: 800;
     margin-top: 50px;
-    color: #ac3630;
+    color: #93c572;
   }
   .hero_title {
     display: none;
@@ -1057,7 +1057,7 @@ a {
     margin-left: 20px;
   }
   .about__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 5px;
   }
   .about__text {
@@ -1103,7 +1103,7 @@ a {
     margin-left: 20px;
   }
   .about__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 5px;
   }
   .about__text {
@@ -1132,7 +1132,7 @@ a {
     display: none;
   }
   .about__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 10px;
   }
   .about__title {
@@ -1186,7 +1186,7 @@ a {
     display: none;
   }
   .about__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 10px;
   }
   .about__title {
@@ -1481,7 +1481,7 @@ a {
     height: 100px;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid #c84837;
+    border: 1px solid #93c572;
   }
   .emotions__item:not(:nth-child(3n+3)) {
     margin-right: 30px;
@@ -1490,7 +1490,7 @@ a {
     margin-bottom: 30px;
   }
   .emotions__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-bottom: 10px;
   }
 }
@@ -1572,7 +1572,7 @@ a {
     height: 120px;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid #c84837;
+    border: 1px solid #93c572;
   }
   .emotions__item:nth-child(-n+5) {
     margin-bottom: 30px;
@@ -1580,7 +1580,7 @@ a {
   .emotions__icons {
     width: 30px;
     height: 30px;
-    fill: #ac3630;
+    fill: #93c572;
     margin-bottom: 10px;
   }
 }
@@ -1641,7 +1641,7 @@ a {
     margin-bottom: 10px;
   }
   .help__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 30px;
     margin-bottom: 10px;
   }
@@ -1717,7 +1717,7 @@ a {
     margin-bottom: 10px;
   }
   .help__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 30px;
     margin-bottom: 10px;
   }
@@ -1792,7 +1792,7 @@ a {
     margin-bottom: 15px;
   }
   .help__icons {
-    fill: #ac3630;
+    fill: #93c572;
     margin-right: 30px;
     margin-bottom: 10px;
   }
@@ -1852,12 +1852,12 @@ a {
   .buy__link:hover, .buy__link:focus {
     width: 100px;
     height: 100px;
-    background-color: #c84837;
+    background-color: #93c572;
     color: white;
     font-size: 18px;
     -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
             box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-    border-color: #c84837;
+    border-color: #93c572;
   }
   .buy__icons {
     margin-bottom: 10px;
@@ -1930,12 +1930,12 @@ a {
   .buy__link:hover, .buy__link:focus {
     width: 120px;
     height: 120px;
-    background-color: #c84837;
+    background-color: #93c572;
     color: white;
     font-size: 18px;
     -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
             box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-    border-color: #c84837;
+    border-color: #93c572;
   }
   .buy__icons {
     margin-bottom: 10px;
@@ -2008,12 +2008,12 @@ a {
   .buy__link:hover, .buy__link:focus {
     width: 140px;
     height: 140px;
-    background-color: #c84837;
+    background-color: #93c572;
     color: white;
     font-size: 22px;
     -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
             box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-    border-color: #c84837;
+    border-color: #93c572;
   }
   .buy__icons {
     width: 80px;
@@ -2091,12 +2091,12 @@ a {
   .buy__link:hover, .buy__link:focus {
     width: 180px;
     height: 180px;
-    background-color: #c84837;
+    background-color: #93c572;
     color: white;
     font-size: 26px;
     -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
             box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-    border-color: #c84837;
+    border-color: #93c572;
   }
   .buy__icons {
     width: 60px;
@@ -2165,7 +2165,7 @@ a {
     text-align: center;
     font-size: 23px;
     font-weight: 700;
-    color: #c84837;
+    color: #93c572;
   }
   .author__imp {
     font-size: 19px;
@@ -2216,7 +2216,7 @@ a {
     text-align: center;
     font-size: 23px;
     font-weight: 700;
-    color: #c84837;
+    color: #93c572;
   }
   .author__list {
     display: -webkit-box;
@@ -2305,7 +2305,7 @@ a {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
-    color: #c84837;
+    color: #93c572;
     margin-bottom: 50px;
   }
   .author__text {
@@ -2320,7 +2320,7 @@ a {
   .author__imp {
     font-size: 22px;
     font-weight: 700;
-    color: #c84837;
+    color: #93c572;
   }
 }
 
@@ -2385,7 +2385,7 @@ a {
   /* При наведении на кнопки добавляем фон кнопок */
   .slider .prev:hover, :focus,
   .slider .next:hover, :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
     color: white;
   }
   .slider-dots {
@@ -2404,7 +2404,7 @@ a {
   }
   .active,
   .slider-dots_item:hover, :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
   }
   /* Анимация слайдов */
   .slider .item {
@@ -2493,7 +2493,7 @@ a {
   :focus,
   .slider .next:hover,
   :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
     color: white;
   }
   .slider-dots {
@@ -2513,7 +2513,7 @@ a {
   .active,
   .slider-dots_item:hover,
   :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
   }
   /* Анимация слайдов */
   .slider .item {
@@ -2602,7 +2602,7 @@ a {
   :focus,
   .slider .next:hover,
   :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
     color: white;
   }
   .slider-dots {
@@ -2622,7 +2622,7 @@ a {
   .active,
   .slider-dots_item:hover,
   :focus {
-    background-color: #ac3630;
+    background-color: #93c572;
   }
   /* Анимация слайдов */
   .slider .item {
@@ -2661,7 +2661,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #ac3630;
+    background-color: #93c572;
     padding: 30px;
     font-style: normal;
   }
@@ -2701,7 +2701,7 @@ a {
   }
   .contacts__mail {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.3;
     text-align: center;
     color: white;
@@ -2768,7 +2768,7 @@ a {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .footer {
-    background-color: #ac3630;
+    background-color: #93c572;
     padding: 30px 30px 50px 30px;
     font-style: normal;
   }
@@ -2829,7 +2829,7 @@ a {
   }
   .contacts__mail {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.3;
     text-align: center;
     color: white;
@@ -2911,7 +2911,7 @@ a {
     top: 0;
     height: 2px;
     width: 100%;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-radius: 1px;
   }
   .contacts_div {
@@ -2965,7 +2965,7 @@ a {
     font-size: 35px;
     line-height: 1.3;
     text-align: center;
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -2973,10 +2973,10 @@ a {
     color: black;
   }
   .contacts__mail {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.3;
     text-align: center;
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -3000,7 +3000,7 @@ a {
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 0), -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 0);
   }
   .footer__item:hover, .footer__item:focus {
-    background-color: #ac3630;
+    background-color: #93c572;
     padding: 10px;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
@@ -3023,7 +3023,7 @@ a {
     display: none;
   }
   .foot__icons {
-    fill: #ac3630;
+    fill: #93c572;
   }
   .foot__icons:hover, .foot__icons:focus {
     fill: white;
@@ -3054,7 +3054,7 @@ a {
     top: 0;
     height: 2px;
     width: 100%;
-    background-color: #ac3630;
+    background-color: #93c572;
     border-radius: 1px;
   }
   .contacts_div {
@@ -3108,7 +3108,7 @@ a {
     font-size: 40px;
     line-height: 1.3;
     text-align: center;
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -3119,7 +3119,7 @@ a {
     font-size: 25px;
     line-height: 1.3;
     text-align: center;
-    color: #ac3630;
+    color: #93c572;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0);
   }
@@ -3143,7 +3143,7 @@ a {
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 0), -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 0);
   }
   .footer__item:hover, .footer__item:focus {
-    background-color: #ac3630;
+    background-color: #93c572;
     padding: 10px;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
@@ -3168,7 +3168,7 @@ a {
   .foot__icons {
     width: 50px;
     height: 50px;
-    fill: #ac3630;
+    fill: #93c572;
   }
   .foot__icons:hover, .foot__icons:focus {
     fill: white;
